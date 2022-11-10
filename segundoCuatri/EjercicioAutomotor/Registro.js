@@ -47,8 +47,9 @@ function crearAutos(Autos, arrayAutos) {
     var marca = propiedadAutos[0];
     var patente = Number(propiedadAutos[1]);
     var nuevoAuto = new Auto("Toyota", "aa200", 2021);
+    var nuevoAuto1 = new Auto("Peugeot", "ss300", 2000);
     //inserto el elemento de tipo Auto en el arreglo recibido
-    arrayAutos.push(nuevoAuto);
+    var arrayAutosCargados = arrayAutos.push(nuevoAuto);
 }
 //Inicio programa
 var datos = new GestorDeArchivos('Autos.txt');
