@@ -46,17 +46,19 @@ class GestorDeArchivos {
             public getArregloString(): string[] {
                 return this.arregloString;
             }
-        }function crearAutos(Autos: string, arrayAutos: Array<Auto>, ): void {
+        }
+function crearAutos(Autos: string, arrayAutos: Array<Auto>, ): void {
             //transformo el elemento de tipo string en un objeto de tipo Auto
             let propiedadAutos = Autos.split(','); // 
             let marca: string = propiedadAutos[0];
             let patente: number = Number(propiedadAutos[1]);
              
             let nuevoAuto : Auto = new Auto("Toyota","aa200", 2021);
+            let nuevoAuto1: Auto= new Auto("Peugeot", "ss300", 2000)
             //inserto el elemento de tipo Auto en el arreglo recibido
-            arrayAutos.push(nuevoAuto);
+            let arrayAutosCargados=arrayAutos.push(nuevoAuto); 
         }
-
+        
 
         //Inicio programa
 let datos: GestorDeArchivos = new GestorDeArchivos('Autos.txt');
