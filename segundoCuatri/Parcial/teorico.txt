@@ -1,0 +1,33 @@
+1.	¿A que se llama Herencia?
+La herencia nos permite crear estructuras jerárquicas de clases donde es posible la creación de sub-clases que incluyan nuevas propiedades y atributos.
+2.	¿Qué es una subclase?
+Es la hija que hereda atributos y métodos de la clases y puede agregar además otros métodos y atributos.
+3.	Que es un objeto?
+Es una instancia de una clase, creado a partir de esta, que posee propiedades(variables) y funcionalidades(métodos)
+4.	¿Qué significa que un atributo sea protegido?
+Un atributo es protegido cuando solo pueden acceder a ellos la misma clase o quienes la heredan.
+5.	Existe la herencia múltiple en Typescript?
+No existe la herencia multiple.
+6.	Definir Poliformismo
+7.	¿Qué es un constructor? Para qué sirve?
+Es un método dentro de una clase, que permite crear un objeto a partir de parámetros que se le pasen.
+8.	¿Cómo se crea una clase abstracta?
+Las clases abstractas se usan cuando queremos 
+abstraer más cosas → variables, métodos 
+privados, etc.
+Las clases, métodos y propiedades pueden ser
+declaradas como abtract (abstractas) en
+TypeScriptUn método y/o una propiedad abstracta es un 
+método que no ha sido implementado. Cuando
+una clase no tiene ningún método abstracto, se le 
+conoce como concrete (concreta).
+9.	¿Para que se usa el super?
+Para invocar al constructor de la clase padre, garantiza que las variables de la super clase se inicialicen de la manera esperada. Se utiliza cuando usamos herencia.
+10.	¿Qué son las interfaces?
+Se usa interfaz cuando queremos mostrar 
+solamente la funcionalidad de una determinada 
+clase, o un conjunto de clases.
+El uso de interfaz es una buena práctica para 
+plantear y mostrar fácilmente la funcionalidad que 
+ofrecen las clases que implementen dicha 
+interfaz → es muy recomendable usarlas
