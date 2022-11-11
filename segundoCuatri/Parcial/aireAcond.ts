@@ -10,13 +10,14 @@ class Motor{
   class AireAcondicionado {
   public marca: string;
   public motor:Motor
-   public temperatura:number;
-      public constructor(marca: string,motor:Motor, temperatura:number) {
+  public temperatura:number;
+      public constructor(marca: string, motor:Motor, temperatura:number) {
         this.marca = marca;
         this.temperatura=temperatura;
+        this.motor=motor;
       }
       public aclimatar(): void {
-        console.log (this.aclimatar());
+        console.log ("El aire acondicionado aclimata");
       }
       public getMarca() {
         return this.marca;
@@ -58,3 +59,4 @@ class Motor{
     console.log(aire1)
     aire2.calentar()
     console.log(aire2)
+    
